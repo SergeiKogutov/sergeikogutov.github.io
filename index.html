@@ -23,13 +23,21 @@
       .rounded-img {
         width: 60%;
         border-radius: 50%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 10px rgb(255, 255, 255);
         padding: 0.3em;
         margin-bottom: 1em;
       }
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
     </style>
   </head>
-  <body>
+  <body background-color="#000" background="imgbg.jpg">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand p-0" href="/">
@@ -66,26 +74,30 @@
             src="https://sun4-18.userapi.com/impg/tAQA71gMRJIJ4GpgA8SgRH_GNxXxut75NfT-0g/6v7sK-FebTk.jpg?size=1280x1280&quality=95&sign=6cfc9fd1210715fa1fec868976a72f07&type=album"
             alt="Sergei"
           />
-          <h1 class="fw-light">Sergey Kogutov</h1>
-          <p class="lead text-muted">
-            Hi, I'm Sergey Kogutov. I am a developer. This page is my resume,
-            where you can get acquainted with my skills and achievements. View
-            my projects and evaluate their quality.
-          </p>
-          <a
-            href="https://github.com/SergeiKogutov"
-            target="_blank"
-            class="btn btn-primary"
-          >
-            My profile in GitHub!
-          </a>
-          <a
-            href="https://vk.com/id553457014"
-            target="_blank"
-            class="btn btn-secondary"
-          >
-            My page in Vk!
-          </a>
+          <div class="card">
+            <div class="card-body">
+              <h1 class="card-title">Sergey Kogutov</h1>
+              <p class="card-text">
+                Hi, I'm Sergey Kogutov. I am a developer. This page is my
+                resume, where you can get acquainted with my skills and
+                achievements. View my projects and evaluate their quality.
+              </p>
+              <a
+                href="https://github.com/SergeiKogutov"
+                target="_blank"
+                class="btn btn-primary"
+              >
+                My profile in GitHub!
+              </a>
+              <a
+                href="https://vk.com/id553457014"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                My page in Vk!
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
