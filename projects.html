@@ -36,9 +36,18 @@
         padding: 0.3em;
         margin-bottom: 1em;
       }
+      body {
+            margin: 0;
+            height: 100vh; /* Устанавливаем высоту на 100% высоты окна */
+            background-color: #000; /* Черный фон */
+            background-image: url('imgbg.jpg'); /* Путь к изображению */
+            background-size: cover; /* Растягиваем изображение по всей высоте и ширине */
+            background-position: center; /* Центрируем изображение */
+            background-repeat: no-repeat; /* Не повторяем изображение */
+        }
     </style>
   </head>
-  <body background-color="#000" background="imgbg.jpg">
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand p-0" href="/">
